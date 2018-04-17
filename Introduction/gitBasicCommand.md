@@ -38,10 +38,11 @@ git commit -m “Update README”
 
 - #### Staging Area
 
-一個 Git 目錄裡，可以分成三種區域：
-•目前工作目錄 Working tree
-•暫存準備遞交區 Staging Area
-•儲存庫 Repository
+Git 目錄裡，可以分成三種區域：
+- 目前工作目錄 Working tree
+- 暫存準備遞交區 Staging Area
+- 儲存庫 Repository
+
 
 ![](/assets/basic-1 Staging Area.png)
 
