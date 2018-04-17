@@ -24,13 +24,16 @@ git commit -m “First Commit”
 
 修改看看：
 編輯 README 做些變更
+
+```
+
 git status
 git diff
-git add .
-(一次加入所有變更跟新增檔案，但不包括刪除的檔案!)
+git add .  (一次加入所有變更跟新增檔案，但不包括刪除的檔案!)
 git status
 git diff --cached
 git commit -m “Update README”
+```
 
 
 - #### Staging Area
@@ -39,6 +42,9 @@ git commit -m “Update README”
 •目前工作目錄 Working tree
 •暫存準備遞交區 Staging Area
 •儲存庫 Repository
+
+![](/assets/basic-1 Staging Area.png)
+
 
 Staging area
 
