@@ -30,6 +30,13 @@
 
 ![](/assets/觀察 Git 內部如何儲存檔案.jpg)
 
+```
+echo sweet > sweet.txt
+git add .
+find .git/objects -type f
+```
+
+
 
 * #### Git 內部如何儲存 Commit
 
