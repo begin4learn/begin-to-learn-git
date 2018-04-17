@@ -79,11 +79,11 @@ git commit “Update b”
 
 - staging 之後又再修改內容：
 
->修改 a.rb
-git add a.rb
-再次修改 a.rb
-git commit -m “commit a”
-這時 commit 的內容是第一次修改當時的內容而已
+>修改 a.rb    
+git add a.rb    
+再次修改 a.rb    
+git commit -m “commit a”    
+這時 commit 的內容是第一次修改當時的內容而已    
 
 
 - 只 commit 同一檔案部分內容：
