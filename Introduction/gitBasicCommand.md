@@ -2,6 +2,8 @@
 
 - Git 是分散式的，表示你不需要伺服器，在本地端就有完整的Repository。
 
+----
+
 - #### 建立、新增、修改、遞交
 
 - 從頭建立 Repository：
@@ -101,122 +103,175 @@ s 可以拆小一點 hunk
 
 - 或者用 GUI 例如 gitx 來選取
 
-在 commit 之前如何復原修改? 使用 git reset 和 git checkout 指令，你打 git status 就有提示了，不需要記起來。
+- 在 commit 之前如何復原修改? 
+	- 使用 git reset 和 git checkout 指令
+	- 打 git status 就有提示了，不需要記起來。    
 
+----
 - #### 刪除和搬移檔案
-git rm a.rb
-git mv b.rb c.rb
-git add .
-git commit “Remove a, Rename b to c”
+
+```
+git rm a.rb    
+git mv b.rb c.rb    
+git add .    
+git commit “Remove a, Rename b to c”    
+
+```
 
 
-沒有 copy ? 因為 Git 是追蹤內容(相同內容SHA1相同)，你只要 cp 即可，不用擔心浪費空間。
+- 沒有 copy ? 因為 Git 是追蹤內容(相同內容SHA1相同)，你只要 cp 即可，不用擔心浪費空間。
+
+----
 
 - #### revert (還原 commit 記錄)
 
-新增一筆 commit 來做還原
-例如本來的 commit 是新增一行，那麼 revert commit 就會移除那一行
-git revert e37c75787
-git revert HEAD^
+- 新增一筆 commit 來做還原
+	- 例如本來的 commit 是新增一行，那麼 revert commit 就會移除那一行
 
+
+```
+git revert e37c75787    
+git revert HEAD^
+```
+
+----
 
 - #### Tag 下標籤
-git tag foo
-git tag foo <SHA1>
-git tag bar -m “some message”
-git tag
-git tag -d foo
 
+```
+git tag foo    
+git tag foo <SHA1>    
+git tag bar -m “some message”    
+git tag    
+git tag -d foo    
+```
 
+----
 - #### 歷史紀錄
-git log
-git log --oneline
-git log --oneline --decorate --graph
-git log 很多參數可以用，但是建議還是用 GUI 吧...
+git log    
+git log --oneline    
+git log --oneline --decorate --graph    
+git log 很多參數可以用，但是建議還是用 GUI 吧...    
 
+----
 
 - #### 查看程式碼逐行的歷史紀錄
-git blame <filename>
-git blame -L 100,10 <filename>
 
+```
+git blame <filename>    
+git blame -L 100,10 <filename>    
+```
 
 -L參數可以從第一百行開始顯示10行
 
+----
+
 - #### 比較差異 Diff
-git diff <SHA1> 拿 Working Tree 比較
-git diff <SHA1> <SHA1>
-git diff --stat <SHA1>
-git diff --cached 或 git diff --staged
-拿 Staging Area 來比較
 
 
+
+```
+git diff <SHA1>    拿 Working Tree 比較    
+git diff <SHA1> <SHA1>    
+git diff --stat <SHA1>    
+git diff --cached 或 git diff --staged   拿 Staging Area 來比較    
+```
+
+----
 - #### 砍掉 untracked 檔案
-git clean -n 列出打算要清除的檔案
-git clean -f 真的清除
-git clean -x 連 gitignore 裡列的檔案也清掉
 
+
+```
+git clean -n 列出打算要清除的檔案    
+git clean -f 真的清除    
+git clean -x 連 gitignore 裡列的檔案也清掉    
+```
+
+----
 
 - #### 忽略不需要追蹤的檔案
+
+```
 編輯 .gitignore (屬於專案的設定，會 commit 出去)
 編輯 ~/.gitignore (你個人的 Global 設定)
 空目錄不會 commit 出去，必要時需要放 .gitkeep 檔案
+```
 
 
-.gitignore 大集合
+- [gitignore 大集合](https://github.com/github/gitignore)
 
-通常什麼檔案不需要 commit 出去?
-tmp/*
-log/*
-你個人環境的設定檔(例如你偏愛的編輯器設定檔)
-可以自動產生的檔案
-build/* 等 compile 之後的檔案
-.DS_Store
-Thumbs.rb
+>通常什麼檔案不需要 commit 出去?
+- tmp/*    
+- log/*    
+- 你個人環境的設定檔(例如你偏愛的編輯器設定檔)    
+- 可以自動產生的檔案    
+- build/* 等 compile 之後的檔案    
+- .DS_Store    
+- Thumbs.rb    
 
+---- 
 - #### Commit 基本原則
-適當的粒度/相關性/獨立性 ◦以一個小功能、小改進或一個 bug fixed 為單位。
-對應的 unit test 程式在同一個 commit
-無相關的修改不在同一個 commit
-語法錯誤的半成品程式不能 commit
-
-git diff –check 可以檢查多餘的空白
-commit 訊息很重要 ◦第一行寫摘要
-有需要寫實作細節的話，放第二行之後
 
 
+>- 適當的粒度/相關性/獨立性 ◦    
+	- 一個小功能、
+	- 小改進或
+	- 一個 bug fixed 為單位。     
+- 對應的 unit test 程式在同一個 commit    
+- 無相關的修改不在同一個 commit    
+- 語法錯誤的半成品程式不能 commit    
+
+- git diff –check 可以檢查多餘的空白
+
+- commit 訊息很重要 ◦    
+	- 第一行寫摘要
+	- 有需要寫實作細節的話，放第二行之後
+
+----
 - #### 開分支
 
-何時開 Branch ?
-Topic feature 開發新功能
-Bug fixes
-重構 (refactor)
-任何實驗
-
-開分支：
-git branch new_feature
-git branch 或 git branch <SHA1>
-git checkout new_feature
-(以上兩步可以合一 git checkout -b new_feature)
-touch new_feature.rb
-git add new_feature.rb
-git commit -m “New feature”
+- 何時開 Branch ?
+	- Topic feature 開發新功能    
+	- Bug fixes    
+	- 重構 (refactor)    
+	- 任何實驗    
 
 
-合併 branch 回來
+- 開分支：
+
+```
+git branch new_feature    
+git branch 或 git branch <SHA1>    
+git checkout new_feature    
+(以上兩步可以合一 git checkout -b new_feature)    
+touch new_feature.rb    
+git add new_feature.rb    
+git commit -m “New feature”    
+```
+
+
+- 合併 branch 回來
+
+
+```
 git checkout master
 git merge new_feature
+```
 
 
+- Git 預設的 branch 叫做master
 
-Git 預設的 branch 叫做master
+- Branch 更名和刪除
 
-Branch 更名和刪除
+
+```
 git branch -m old_name new_name
 git branch -M old_name new_name (強制覆蓋)
 git branch new_feature -d
 git branch new_feature -D (強制刪除)
+```
 
-
+----
 - #### 四種合併方式
 
 Straight merge 預設的合併模式
