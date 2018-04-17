@@ -51,3 +51,24 @@ echo 'sweet' \| git hash-object -w --stdin
 git cat-file -p aa823728ea7d592acc69b36875a482cdf3fd5c8d
 ```
 
+* #### Git 內部如何儲存 Commit
+
+  抓一個 Commit 的 SHA1 開始：
+
+* 觀察這個 commit，找出 tree 位置
+
+```
+git cat-file -p a08181bf3  
+```
+
+* 觀察這個 tree，找出任一個 blob SHA1
+
+```
+git cat-file -p ea44d629
+```
+
+* 觀察這個 blob 的內容
+  ```
+  git cat-file -p d9647d8a  
+  ```
+
