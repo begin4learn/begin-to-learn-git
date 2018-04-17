@@ -29,29 +29,23 @@
     * hash 的分布很分散，跟 message 關聯不大
 
 * #### Git 內部如何儲存檔案
+    
+>echo sweet > sweet.txt
+>git add .
+>find .git/objects -type f
+    
 
-```
-echo sweet > sweet.txt
-git add .
-find .git/objects -type f
-```
+> Git 內部儲存在 .git/objects/aa/823728ea7d592acc69b36875a482cdf3fd5c8d  
+> 這是 "blob" SP "6" NUL "sweet" LF 的 SHA1  
 
-- Git 內部儲存在 .git/objects/aa/823728ea7d592acc69b36875a482cdf3fd5c8d  
-- 這是 "blob" SP "6" NUL "sweet" LF 的 SHA1  
 
-```
-printf "blob 6\000sweet\n" \| shasum  
-```
+>printf "blob 6\000sweet\n" \| shasum  
+
 or
 
-```
-echo 'sweet' \| git hash-object -w --stdin  
-```
+> echo 'sweet' \| git hash-object -w --stdin  
+> git cat-file -p aa823728ea7d592acc69b36875a482cdf3fd5c8d
 
-```
-git cat-file -p aa823728ea7d592acc69b36875a482cdf3fd5c8d
-
-```
 
 
 
@@ -61,23 +55,21 @@ git cat-file -p aa823728ea7d592acc69b36875a482cdf3fd5c8d
   
 - 觀察這個 commit，找出 tree 位置 
   
-```
-git cat-file -p a08181bf3  \(觀察這個 commit，找出 tree 位置 \)  
-```
+
+> git cat-file -p a08181bf3  \(觀察這個 commit，找出 tree 位置 \)  
+
 
 - 觀察這個 tree，找出任一個 blob SHA1
 
-```
-git cat-file -p ea44d629       \(觀察這個 tree，找出任一個 blob SHA1\)  
 
-```
+> git cat-file -p ea44d629       \(觀察這個 tree，找出任一個 blob SHA1\)  
+
+
 
 - 觀察這個 blob 的內容
-```
-git cat-file -p d9647d8a  \(觀察這個 blob 的內容\)
-```
 
-
+> git cat-file -p d9647d8a  \(觀察這個 blob 的內容\)  
+  
 
 * #### 參照 Reference
 
@@ -100,11 +92,11 @@ git cat-file -p d9647d8a  \(觀察這個 blob 的內容\)
 * #### Git 內部如何儲存 Branch 分支
 
 
-```
-cat .git/HEAD 拿到目前工作目錄 current branch 是指向哪一個 branch
-cat .git/refs/heads/master 拿到 master branch 指向的 commit
-cat .git/refs/tags/foobar 拿到 foobar tag 指向的 commit
-```
+
+>cat .git/HEAD 拿到目前工作目錄 current branch 是指向哪一個 branch  
+>cat .git/refs/heads/master 拿到 master branch 指向的 commit  
+>cat .git/refs/tags/foobar 拿到 foobar tag 指向的 commit  
+
 
 
 了解了 Git 如何儲存 Branch 之後，就再也不會想用中央儲存式的 SVN 了：  
