@@ -57,36 +57,49 @@ Staging area
 - 有修改、準備要被遞交的檔案(在Staging Area) Changes to be committed
 - 已經被遞交的檔案 Committed
 
-Staging Area 算是 Git 獨有的功能，有什麼好處呢?
-Working tree 可能很亂，包含了想要 commit 的內容和不相關的實驗修改等
-Staging area 的設計可以讓你只 commit 想要的檔案，甚至是想要的部份修改而已
-Staging Area 又叫作 Index
+![](/assets/basic-2 Working tree 裡的檔案有四種狀態.jpg)
 
-只 commit 部分檔案：
+- Staging Area 算是 Git 獨有的功能，有什麼好處呢?
+	- Staging Area 又叫作 Index
+	- Working tree 可能很亂，包含了想要 commit 的內容和不相關的實驗修改等
+	- Staging area 的設計可以讓你只 commit 想要的檔案，甚至是想要的部份修改而已    
+
+
+- 只 commit 部分檔案：
+
+```
 touch a.rb
 touch b.rb
 git add a.rb
 git commit “Update a”
 git add b.rb
 git commit “Update b”
+```
 
 
-staging 之後又再修改內容：
-修改 a.rb
+- staging 之後又再修改內容：
+
+>修改 a.rb
 git add a.rb
 再次修改 a.rb
 git commit -m “commit a”
 這時 commit 的內容是第一次修改當時的內容而已
 
 
-只 commit 同一檔案部分內容：
+- 只 commit 同一檔案部分內容：
+
+
+```
 git add --patch
-	y 加到 staging
-	n 不要加到 staging
-	s 可以拆小一點 hunk
+```
+
+>y 加到 staging
+n 不要加到 staging
+s 可以拆小一點 hunk
 
 
-或者用 GUI 例如 gitx 來選取
+
+- 或者用 GUI 例如 gitx 來選取
 
 在 commit 之前如何復原修改? 使用 git reset 和 git checkout 指令，你打 git status 就有提示了，不需要記起來。
 
