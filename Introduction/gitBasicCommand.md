@@ -93,9 +93,9 @@ git commit -m “commit a”
 git add --patch
 ```
 
->y 加到 staging
-n 不要加到 staging
-s 可以拆小一點 hunk
+>y 加到 staging    
+n 不要加到 staging    
+s 可以拆小一點 hunk    
 
 
 
