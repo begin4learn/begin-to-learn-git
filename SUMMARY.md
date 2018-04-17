@@ -3,7 +3,7 @@
 * [Introduction](README.md)
   * [Introduction](Introduction/Introduction.md)
   * [What is git](Introduction/WhatisGit.md)
-  * [git principle](Introduction/gitinternalprinciple2.md)
+  * [git principle](Introduction/gitinternalprinciple.md)
   * [git basic command](Introduction/gitBasicCommand.md)
 * [Git Install & Setup](GitSetup/GitInstallSetup.md)
   * [git install Windows](GitSetup/gitinstallWindows.md)
