@@ -26,3 +26,28 @@
     * 極度困難不同的 messages 而 hash 一樣
     * hash 的分布很分散，跟 message 關聯不大
 
+* #### Git 內部如何儲存檔案
+
+```
+echo sweet > sweet.txt
+git add .
+find .git/objects -type f
+```
+
+* Git 內部儲存在 .git/objects/aa/823728ea7d592acc69b36875a482cdf3fd5c8d  
+* 這是 "blob" SP "6" NUL "sweet" LF 的 SHA1  
+
+```
+printf "blob 6\000sweet\n" \| shasum
+```
+
+or
+
+```
+echo 'sweet' \| git hash-object -w --stdin
+```
+
+```
+git cat-file -p aa823728ea7d592acc69b36875a482cdf3fd5c8d
+```
+
