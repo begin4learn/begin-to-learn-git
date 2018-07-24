@@ -56,5 +56,7 @@
 
 * [Windows版 Git UI入門教學-使用TortoiseGit & msysGit](http://www.coder.com.tw/blog/system/windows_git_tortoisegit_msysgit/)
 
-
+----
+### Reference
+- [Git-Tutorials 基本使用教學](https://github.com/twtrubiks/Git-Tutorials/blob/master/README.md)
 
