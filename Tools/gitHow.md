@@ -1,0 +1,8 @@
+# git How
+
+
+----
+### Reference
+- [如何合併多個commits](http://zerodie.github.io/blog/2012/01/19/git-rebase-i/)
+
+
