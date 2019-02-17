@@ -34,6 +34,8 @@
   * [The Will Will Web | Git 學習筆記 (2)：30 天精通 Git 版本控管](https://blog.miniasp.com/post/2013/11/03/Learning-Git-Part-2-Master-Git-in-30-days)
     * [Learn-Git-in-30-days/README.md at master · doggy8088/Learn-Git-in-30-days · GitHub](https://github.com/doggy8088/Learn-Git-in-30-days/blob/master/zh-tw/README.md)
       * [GitHub - doggy8088/Learn-Git-in-30-days: 這是 Will 保哥在 2013 第 6 屆 iT 邦幫忙鐵人賽年度大獎的得獎著作【30 天精通 Git 版本控管】，歡迎大家 fork 我，如果有看見任何文字勘誤，也歡迎利用 pull request 來通知我修正，謝謝！](https://github.com/doggy8088/Learn-Git-in-30-days)
+      
+      
 * [Git新手入門教學 – part 1 – 寫點科普，請給指教。](https://hellolynn.hpd.io/2017/01/18/git新手入門教學-part-1/)
 * [Git新手入門教學 – part 2 – 寫點科普，請給指教。](https://hellolynn.hpd.io/2017/01/18/git新手入門教學-part-2/)
 
