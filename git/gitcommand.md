@@ -1,8 +1,8 @@
 ### Tools/git command
 
-| git Command | Explain | syntax |  | Note |
+| git Command | Explain | syntax | Result | Note |
 | :--- | :--- | :--- | :--- | :--- |
-| git--version | 確認是否安裝成功 |  |  |  |
+| git--version | 確認是否安裝成功 | git--version | git version 2.14.1 |  |
 | git config--globaluser.name"user name" | 告訴Git使用者資訊 | git config--globaluser.name"Lynn19931205" |  |  |
 | git config--globaluser.email"email address" | 告訴Git使用者資訊 | git config--globaluser.email"j890355b@gmail.com" |  |  |
 | git config–list | 看你的Git設定內容 |  |  |  |
@@ -58,7 +58,7 @@
 
 ### Git Beginner A-Z
 
-| git command | Explain | syntax |  | Note |
+| git command | Explain | syntax | Result | Note |
 | :--- | :--- | :--- | :--- | :--- |
 | cd~/desktop$ | 至桌面 | cd~/desktop$mkdirproject\_1 |  |  |
 | cd~/desktop/project\_1/ |  | cd~/desktop/project\_1/ |  |  |

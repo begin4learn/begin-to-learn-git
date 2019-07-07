@@ -1,9 +1,8 @@
 ### Collaborating/Branch
 
-* [Branch](Branch.md)
-    - [git branch](command/gitbranch.md)
-    - [git checkout (Branch)](command/gitcheckoutBranch.md)
-    - [git merge](command/gitmerge.md)
+- [git branch](command/gitbranch.md)
+- [git checkout (Branch)](command/gitcheckoutBranch.md)
+- [git merge](command/gitmerge.md)
     
 ----
 #### Reference:
