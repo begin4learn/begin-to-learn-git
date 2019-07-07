@@ -58,6 +58,7 @@
 * [Tools](git/Tools.md)
   * [CheatSheet](git/CheatSheet.md)
   * [git command](git/gitcommand.md)
+    * [git command A-Z](git/command_a_z.md)
   * [basic linux command](git/basiccommand.md)
   * [git How](git/gitHow.md)
 * [gitFlow](git/gitFlow.md)

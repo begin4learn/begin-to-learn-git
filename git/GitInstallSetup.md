@@ -1,4 +1,4 @@
-## Git Install & Setup
+## Git Install & Setup 環境安裝與設定
 
 - #### Install git: 安裝 Git
 
