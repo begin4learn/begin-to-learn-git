@@ -129,5 +129,7 @@
 
 * [Why Git \| Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/why-git)
 
+* [終端機及常用指令介紹 - 為你自己學 Git | 高見龍](https://gitbook.tw/chapters/command-line/command-line.html)
+
 
 

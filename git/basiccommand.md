@@ -153,6 +153,10 @@ $ rm *.html
 #### Reference
 
 * [終端機及常用指令介紹 (from 為你自己學 Git by 五倍紅寶石 高見龍)](https://gitbook.tw/chapters/command-line/command-line.html)
+* [終端機及常用指令介紹 - 為你自己學 Git | 高見龍](https://gitbook.tw/chapters/command-line/command-line.html)
+
+
+
 
 
 
