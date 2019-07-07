@@ -1,10 +1,10 @@
 ### Repository of git
 
-- [local reposiroty](localrepository/localrepository.md)
-- [GitHub](GitHub/GitHub.md)
-- [GitBook](GitBook/GitBook.md)
-- [Google drive](googledrive/googledrive.md)
-- [Dropbox](Dropbox/Dropbox.md)
+- [local reposiroty](localrepository.md)
+- [GitHub](GitHub.md)
+- [GitBook](GitBook.md)
+- [Google drive](googledrive.md)
+- [Dropbox](Dropbox.md)
 
 ----
 #### Reference:
