@@ -6,9 +6,6 @@
   * [git principle](git/gitinternalprinciple.md)
   * [git basic command](git/gitBasicCommand.md)
   * [git operation](git/GitOperations.md)
-
----
-
 * [Git Install & Setup](git/GitInstallSetup.md)
   * [git install Windows](git/gitinstallWindows.md)
   * [git install Mac](git/gitinstallMac.md)
@@ -23,6 +20,7 @@
   * [git command Each](git/command_Each.md)
   * [git command A-Z](git/command_a_z.md)
   * [git command Function](git/command_function.md)
+* [git function](git/function2.md)
   * [Setting up a repository](git/RepositorySetup.md)
     * [git init](git/command/gitinit.md)
     * [git config](git/command/gitconfig.md)
@@ -59,9 +57,12 @@
     * [git branch](git/command/gitbranch.md)
     * [git checkout \(Branch\)](git/command/gitcheckoutBranch.md)
     * [git merge](git/command/gitmerge.md)
+  * [gitFlow](git/gitFlow.md)
+  * [AdvancedGit](git/AdvancedGit.md)
 * [Repository of git](git/Repository.md)
   * [local repository](git/localrepository.md)
   * [GitHub](git/GitHub.md)
+  * [GitLab](git/GitLab.md)
   * [GitBook](git/GitBook.md)
   * [Dropbox](git/Dropbox.md)
   * [Google Drive](git/googledrive.md)
