@@ -29,7 +29,7 @@
 | [git clean](command/gitclean.md)|[Undoing Changes](undoingchanges.md)||
 | [git revert](command/gitrevert.md)|[Undoing Changes](undoingchanges.md)||
 | [git reset](command/gitreset.md)|[Undoing Changes](undoingchanges.md)||
-| [git commit --amend](command/gitcommit_amend.md)|[Rewriting History](RewritingHistory.md)||
+| [git commit —amend](command/gitcommit_amend.md)|[Rewriting History](RewritingHistory.md)||
 | [git rebase](command/gitrebase.md)|[Rewriting History](RewritingHistory.md)||
 | [git rebase -i](command/gitrebase_i.md)|[Rewriting History](RewritingHistory.md)||
 | [git reflog](command/gitreflog.md)|[Rewriting History](RewritingHistory.md)||
@@ -40,6 +40,7 @@
 | [git branch](command/gitbranch.md)|[Branch & Merge](gitsyncing.md)||
 | [git checkout (Branch)](command/gitcheckoutBranch.md)|[Branch & Merge](gitsyncing.md)||
 | [git merge](command/gitmerge.md)|[Branch & Merge](gitsyncing.md)||
+
 ---
 
 #### Reference
