@@ -7,6 +7,8 @@
 ---
 
 #### Reference
+* [Git Tutorials and Training | Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials)
+
 
 
 

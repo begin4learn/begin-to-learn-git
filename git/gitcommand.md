@@ -115,9 +115,12 @@
 ---
 
 #### Reference:
+* [Git Tutorials and Training | Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials)
 
 * [Git新手入門教學 – part 1 – 寫點科普，請給指教。](https://hellolynn.hpd.io/2017/01/18/git新手入門教學-part-1/)
+    * [Git新手入門教學 - part 1 -](https://kopu.chat/2017/01/18/git新手入門教學-part-1/)
 * [Git新手入門教學 – part 2 – 寫點科普，請給指教。](https://hellolynn.hpd.io/2017/01/18/git新手入門教學-part-2/)
+    * [Git新手入門教學 – part 2 -](https://kopu.chat/2017/01/18/git新手入門教學-part-2/)
 
 * [What is version control \| Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/what-is-version-control)
 

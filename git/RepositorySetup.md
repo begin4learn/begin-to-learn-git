@@ -4,6 +4,9 @@
     - [git init](command/gitinit.md)
     - [git clone](command/gitinit.md)
     - [git config](command/gitconfig.md)
+    - [git alias](command/gitalias.md)
+    
+    
 ----
 #### Reference:
 
