@@ -116,6 +116,7 @@
 
 #### Reference:
 * [Git Tutorials and Training | Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials)
+- [為你自己學 Git](https://gitbook.tw)
 
 * [Git新手入門教學 – part 1 – 寫點科普，請給指教。](https://hellolynn.hpd.io/2017/01/18/git新手入門教學-part-1/)
     * [Git新手入門教學 - part 1 -](https://kopu.chat/2017/01/18/git新手入門教學-part-1/)

@@ -1,8 +1,13 @@
 ### Introduction
 
 * Beginner
-    - [Git新手入門教學 – part 1 – 寫點科普，請給指教。](https://hellolynn.hpd.io/2017/01/18/git新手入門教學-part-1/)
-    - [Git新手入門教學 – part 2 – 寫點科普，請給指教。](https://hellolynn.hpd.io/2017/01/18/git新手入門教學-part-2/)
+    * [Git Tutorials and Training | Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials)
+    * [Git新手入門教學 – part 1 – 寫點科普，請給指教。](https://hellolynn.hpd.io/2017/01/18/git新手入門教學-part-1/)
+        * [Git新手入門教學 - part 1 -](https://kopu.chat/2017/01/18/git新手入門教學-part-1/)
+    * [Git新手入門教學 – part 2 – 寫點科普，請給指教。](https://hellolynn.hpd.io/2017/01/18/git新手入門教學-part-2/)
+        * [Git新手入門教學 – part 2 -](https://kopu.chat/2017/01/18/git新手入門教學-part-2/)
+
+
     - [Git 與 Github 版本控制基本指令與操作入門教學 | TechBridge 技術共筆部落格](https://blog.techbridge.cc/2018/01/17/learning-programming-and-coding-with-python-git-and-github-tutorial/)
 
 

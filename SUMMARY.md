@@ -70,6 +70,4 @@
   * [CheatSheet](git/CheatSheet.md)
   * [basic linux command](git/basiccommand.md)
   * [git How](git/gitHow.md)
-* [gitFlow](git/gitFlow.md)
-* [AdvancedGit](git/AdvancedGit.md)
 
