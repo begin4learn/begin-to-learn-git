@@ -17,27 +17,27 @@
 | [git init](command/gitinit.md)|[Repository Setup](RepositorySetup.md) ||
 | [git clone](command/gitinit.md)|[Repository Setup](RepositorySetup.md) ||
 | [git config](command/gitconfig.md) |[Repository Setup](RepositorySetup.md) ||
-|[git add](command/gitadd.md)|[Saving Changes](SavingChanges.md)||
+| [git add](command/gitadd.md)|[Saving Changes](SavingChanges.md)||
 | [git commit](command/gitcommit.md)|[Saving Changes](SavingChanges.md)||
 | [git diff](command/gitdiff.md)|[Saving Changes](SavingChanges.md)||
-|[git stash](command/gitstash.md)|[Saving Changes](SavingChanges.md)||
-|[.gitignore](command/gitignore.md) |[Saving Changes](SavingChanges.md)||
-|[git status](command/gitstatus.md)|[Inspecting](Inspecting.md)||
+| [git stash](command/gitstash.md)|[Saving Changes](SavingChanges.md)||
+| [.gitignore](command/gitignore.md) |[Saving Changes](SavingChanges.md)||
+| [git status](command/gitstatus.md)|[Inspecting](Inspecting.md)||
 | [git tag](command/gittag.md)|[Inspecting](Inspecting.md)||
 | [git blame](command/gitblame.md) |[Inspecting](Inspecting.md)||
-|[git checkout](command/gitcheckout.md)|[Undoing Changes](undoingchanges.md)||
+| [git checkout](command/gitcheckout.md)|[Undoing Changes](undoingchanges.md)||
 | [git clean](command/gitclean.md)|[Undoing Changes](undoingchanges.md)||
 | [git revert](command/gitrevert.md)|[Undoing Changes](undoingchanges.md)||
 | [git reset](command/gitreset.md)|[Undoing Changes](undoingchanges.md)||
-|[git commit --amend](command/gitcommit_amend.md)|[Rewriting History](RewritingHistory.md)||
+| [git commit --amend](command/gitcommit_amend.md)|[Rewriting History](RewritingHistory.md)||
 | [git rebase](command/gitrebase.md)|[Rewriting History](RewritingHistory.md)||
 | [git rebase -i](command/gitrebase_i.md)|[Rewriting History](RewritingHistory.md)||
 | [git reflog](command/gitreflog.md)|[Rewriting History](RewritingHistory.md)||
-|[git remote](command/gitremote.md)|[Syncing](gitsyncing.md)||
+| [git remote](command/gitremote.md)|[Syncing](gitsyncing.md)||
 | [git fetch](command/gitfetch.md)|[Syncing](gitsyncing.md)||
 | [git pull](command/gitpull.md)|[Syncing](gitsyncing.md)||
 | [git push](command/gitpush.md)|[Syncing](gitsyncing.md)||
-|[git branch](command/gitbranch.md)|[Branch & Merge](gitsyncing.md)||
+| [git branch](command/gitbranch.md)|[Branch & Merge](gitsyncing.md)||
 | [git checkout (Branch)](command/gitcheckoutBranch.md)|[Branch & Merge](gitsyncing.md)||
 | [git merge](command/gitmerge.md)|[Branch & Merge](gitsyncing.md)||
 ---
