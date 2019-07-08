@@ -84,7 +84,8 @@ PS1="[\[\033[1;32m\]\w\[\033[0m\]] \[\033[0m\]\[\033[1;36m\]\$(git_branch)\[\033
 ----
 - [Git 簡介與安裝 ( Git 版本控制系統  Git 簡介 by ihower 的 Git 教室)](https://ihower.tw/git/intro.html)
 
-
+- [使用者設定 - 為你自己學 Git | 高見龍](https://gitbook.tw/chapters/config/user-config.html)
+    - [其它方便的設定 - 為你自己學 Git | 高見龍](https://gitbook.tw/chapters/config/convenient-settings.html)
     
     
     

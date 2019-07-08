@@ -72,5 +72,5 @@
 
 * [Why Git \| Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/why-git)
 
-
+- [Git 教學 - Git 書 - 為你自己學 Git | 高見龍](https://gitbook.tw/)
 
