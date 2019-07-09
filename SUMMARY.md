@@ -16,6 +16,7 @@
   * [Git Begin Step by Step](git/Begingit.md)
   * [Beginner](git/Beginner.md)
   * [Beginner A-Z](git/BeginnerA2Z.md)
+  * [git concept 概念](git/git-concept-gai-nian.md)
 * [git command](git/gitcommand.md)
   * [git command Each](git/command_Each.md)
   * [git command A-Z](git/command_a_z.md)
