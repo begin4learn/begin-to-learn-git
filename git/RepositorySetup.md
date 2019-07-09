@@ -10,7 +10,8 @@
 ----
 #### Reference:
 
-- [Setting up a repository](https://www.atlassian.com/git/tutorials/setting-up-a-repository)
+- [Setting up a repository | Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/setting-up-a-repository)
+
 - [30 天精通 Git 版本控管 (03)：建立儲存庫 ](http://ithelp.ithome.com.tw/articles/10132804)
 * [新增、初始 Repository - 為你自己學 Git | 高見龍](https://gitbook.tw/chapters/using-git/init-repository.html)
 

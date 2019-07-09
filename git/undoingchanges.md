@@ -11,4 +11,5 @@
 
 ----
 #### Reference
+- [Git - Undoing changes | Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/undoing-changes)
 - [Git 的 4 個階段的撤銷更改](https://tw.wxwenku.com/d/104322889)

@@ -4,3 +4,4 @@
 
 ----
 #### Reference
+- [Git RM | Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/undoing-changes/git-rm)
