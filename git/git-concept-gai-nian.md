@@ -1,5 +1,11 @@
 ### git concept 概念觀念
 
+* #####git add and git commit
+![](/assets/git4.jpg)
+
+* #####git data transport command
+![](/assets/gti data transport commands.png)
+
 
 
 ----

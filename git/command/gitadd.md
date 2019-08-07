@@ -1,5 +1,11 @@
 ### Saving Changes/ git add: 把檔案交給 Git 控管
 
+* #####git data transport command
+![](/assets/gti data transport commands.png)
+
+* #####git add and git commit
+![](/assets/git4.jpg)
+
 
 
 ----

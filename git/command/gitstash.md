@@ -1,5 +1,11 @@
 ### Saving Changes/ git stash
 
+* #####git data transport command
+![](/assets/gti data transport commands.png)
+
+
+
+
 
 
 ----
