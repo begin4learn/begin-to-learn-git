@@ -61,6 +61,8 @@
     * [git merge](git/command/gitmerge.md)
   * [data transport](git/data_transport.md)
     * [git stash apply](git/command/git-stash-apply.md)
+    * [git clone](git/command/git-clone.md)
+    * [gitcheckout HEAD](git/command/gitcheckout_HEAD.md)
   * [gitFlow](git/gitFlow.md)
   * [AdvancedGit](git/AdvancedGit.md)
 * [Repository of git](git/Repository.md)
