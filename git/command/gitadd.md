@@ -1,4 +1,5 @@
 ### Saving Changes/ git add: 把檔案交給 Git 控管
+* 告知 git，哪些是我們即將要提交（commit）的檔案
 
 * #####git data transport command
 ![](/assets/gti data transport commands.png)

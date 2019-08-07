@@ -1,5 +1,5 @@
 ### Inspecting a repository/ git status
-
+* 檢視所有檔案的狀態
 
 
 ----

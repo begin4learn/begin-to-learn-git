@@ -1,8 +1,12 @@
-### Setting up a repository/ git clone
+### git clone
+
+* #####git data transport command
+![](/assets/gti data transport commands.png)
+
+
 
 
 
 
 ----
 #### Reference:
-- [git clone | Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-clone)

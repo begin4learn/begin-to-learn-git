@@ -1,4 +1,5 @@
 ### Saving Changes/ git commit
+* 提交一個 patch，並且使用 vim 編輯提交訊息（包含標題及內容）
 
 * #####git data transport command
 ![](/assets/gti data transport commands.png)

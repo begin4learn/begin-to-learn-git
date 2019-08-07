@@ -1,5 +1,5 @@
 ### Inspecting a repository/ git log
-
+* 檢視提交的歷史訊息
 
 
 ----
