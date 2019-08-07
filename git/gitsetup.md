@@ -87,5 +87,7 @@ PS1="[\[\033[1;32m\]\w\[\033[0m\]] \[\033[0m\]\[\033[1;36m\]\$(git_branch)\[\033
 - [使用者設定 - 為你自己學 Git | 高見龍](https://gitbook.tw/chapters/config/user-config.html)
     - [其它方便的設定 - 為你自己學 Git | 高見龍](https://gitbook.tw/chapters/config/convenient-settings.html)
     
+* [配置 · Git](https://zlargon.gitbooks.io/git-tutorial/content/config.html)
+    
     
     

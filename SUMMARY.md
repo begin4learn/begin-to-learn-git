@@ -6,6 +6,7 @@
   * [git principle](git/gitinternalprinciple.md)
   * [git basic command](git/gitBasicCommand.md)
   * [git operation](git/GitOperations.md)
+  * [Learning git](git/learning-git.md)
 * [Git Install & Setup](git/GitInstallSetup.md)
   * [git install Windows](git/gitinstallWindows.md)
   * [git install Mac](git/gitinstallMac.md)
