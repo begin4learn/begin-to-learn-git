@@ -52,6 +52,10 @@
 
 
 ----
+  ![](/assets/gti data transport commands.png)
+
+
+
 |  |  |  
 | :--- | :--- | 
 |* [git add](command/gitadd.md)	|workspace to index|
@@ -74,6 +78,8 @@
 |  |  |  
 
 ----
+  ![](/assets/gti data transport commands.png)
+
 
 |  |  |  
 | :--- | :--- | 
