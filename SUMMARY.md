@@ -43,7 +43,7 @@
     * [git checkout](git/command/gitcheckout.md)
     * [git clean](git/command/gitclean.md)
     * [git revert](git/command/gitrevert.md)
-    * [git reset](git/command/gitreset.md)
+    * [git reset 退版](git/command/gitreset.md)
     * [git rm](git/command/gitrm.md)
   * [Rewriting History](git/RewritingHistory.md)
     * [git commit --amend](git/command/gitcommit_amend.md)

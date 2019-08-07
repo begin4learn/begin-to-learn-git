@@ -8,3 +8,4 @@
 #### Reference
 - [Git Reset | Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/undoing-changes/git-reset)
 * [version control - What's the difference between git reset --mixed, --soft, and --hard? - Stack Overflow](https://stackoverflow.com/questions/3528245/whats-the-difference-between-git-reset-mixed-soft-and-hard/3528483#3528483)
+* [[Git] Git 自學筆記 : 退版(reset) ,重拉(pull), 強推(push) | Mike's開發瘋 - 點部落](https://dotblogs.com.tw/michaelfang/2016/09/07/git-reset-log-reflog)
