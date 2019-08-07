@@ -16,9 +16,15 @@
 * ##### Remote repository
 
   * [git與google drive\(或dropbox\)並用以進行版本控制及協同作業 \(@行有餘力 則以學文\)](http://sigmundtzeng.blogspot.tw/2015/04/gitgoogle-drivedropbox.html)
+  
+* ##### 本機當 Remote repository 用 (建立遠端儲存庫(remote repo)於本機/網路磁碟檔案系統)
+  * [[Git] Git 自學筆記 : 於本機/網路磁碟檔案系統建立git版控 | Mike's開發瘋 - 點部落](https://dotblogs.com.tw/michaelfang/2016/09/09/git-init-remote)
+
 * ##### git UI
 
   * [Windows版 Git UI入門教學-使用TortoiseGit & msysGit](http://www.coder.com.tw/blog/system/windows_git_tortoisegit_msysgit/)
 
+* #####NAS as git server
+  * [[Git] Git 自學筆記 : 安裝git server on synology nas | Mike's開發瘋 - 點部落](https://dotblogs.com.tw/michaelfang/2018/09/13/221515)
 
 

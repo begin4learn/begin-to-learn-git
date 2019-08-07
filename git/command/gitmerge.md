@@ -14,4 +14,4 @@
 * [Git merge conflicts | Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts)
 * [Git merge strategy options & examples | Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/using-branches/merge-strategy)
 - [圖解4種git合併分支方法 (by 顏海鏡)](http://yanhaijing.com/git/2017/07/14/four-method-for-git-merge/)
-
+* [[Git] Git 自學筆記 : 合併分支(merge) | Mike's開發瘋 - 點部落](https://dotblogs.com.tw/michaelfang/2016/09/05/git-conflict)
